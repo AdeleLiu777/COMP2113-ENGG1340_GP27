@@ -55,13 +55,13 @@ Spider Solitaire is a captivating single-player card game that requires both str
 + newgame.cpp
   + generate a new game.
 + board.cpp
-  + print board to users.
+  + print gameboard to users.
 + move.cpp
-  + read moving instruction from users.
+  + read moving instruction from users to move the sequence of cards from one colume to another.
 + deal_hide.cpp
-  + store data of unshown cards on the board.
+  + turn over the topmost hidden card in the column of pile.
 + deal.cpp
-  + deal a row of new cards to the board.
+  + deal a row of new cards to the gameboard.
 + collect.cpp
   + collect the straight if cards are in right order.
 + success.cpp
