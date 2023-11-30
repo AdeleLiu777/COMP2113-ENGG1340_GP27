@@ -1,11 +1,11 @@
 
 # Spider Solitaire 
 
-Chen Weiqiao  (3035973581)
-Khan Zunair   (3036060422)
-Liu Shuyang   (3035973995)
-Yang Qiwei    (3035854319)
-Ye Xintong    (3035973593)
++ Chen Weiqiao  (3035973581)
++ Khan Zunair   (3036060422)
++ Liu Shuyang   (3035973995)
++ Yang Qiwei    (3035854319)
++ Ye Xintong    (3035973593)
 
 ## Quick DEMO
 [![Watch the video]](https://youtu.be/RsxnUybITv4)
