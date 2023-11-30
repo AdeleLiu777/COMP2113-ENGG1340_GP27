@@ -55,6 +55,7 @@ void board(vector<char> deck[], vector<char> hidden[], int &numset, int numdeck)
     cout << "|\n";
   }
   cout << " _______________________" << endl;
+  //print the number of cards in the card shuffler
   cout << "\nNumber of cards in the card shuffler: " << numset << "*10."
        << endl;
   cout << endl;
