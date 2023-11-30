@@ -35,8 +35,6 @@ Spider Solitaire is a captivating single-player card game that requires both str
    
 ## Features Implemented
 
-## Features Implemented
-
 + Generation of random game sets or events.
   + Uses shuffle() to randomize the deck of cards to be drawn from.
 + Data structures for storing game data.
