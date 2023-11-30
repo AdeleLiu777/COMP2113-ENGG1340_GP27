@@ -1,33 +1,17 @@
-//
-//  deal.cpp
-//  comp2113_gp27
-//
-//  Created by 刘书扬 on 21/11/2023.
-//
-
-#include "deal.hpp"
+#include "deal.h"
 #include <iostream>
 #include <vector>
-#include <algorithm>
-#include <random>
+using namespace std;
 
+void deal(vector<char> &left, vector<char> (&a)[10], int &numset) {
 
-void dealNewCards(std::vector<Left>& deck, std::vector<std::vector<Left>>& gameBoard) {
-    std::random_device rd;
-    std::mt19937 gen(rd());
-
-    int numCardsToDeal = 10;  // Number of cards dealt
-
-    // random shuffle
-    std::shuffle(deck.begin(), deck.end(), gen);
-
-    // Draws cards from the pile and deals them to each column of the game screen
-    for (int col = 0; col < gameBoard.size(); ++col) {
-        for (int i = 0; i < numCardsToDeal; ++i) {
-            // Get the cards at the top of the pile and place them at the end of the columns on the game screen
-            std::string card = deck.back();
-            deck.pop_back();
-            gameBoard[col].push_back(card);
-        }
-    }
+  // Draws cards from the left and deals them to each column of the deck
+  for (int col = 0; col < 10; ++col) {
+      // Get the cards at the top of the left and place them at the end of each deck 
+      // columns on the game screen
+      char card = left.back();
+      left.pop_back();
+      a[col].push_back(card);
+  }
+  numset--;
 }
