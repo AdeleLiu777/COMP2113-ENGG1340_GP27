@@ -41,5 +41,8 @@ Spider Solitaire is a captivating single-player card game that requires both str
 + Program codes in multiple files
   + Major functions are in separate files for ease of access / readability.
 
+## Quick DEMO
+[![Watch the video]](https://youtu.be/RsxnUybITv4)
+
 
 -- COMP2113-ENGG1340_GP27 --
