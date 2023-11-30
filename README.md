@@ -15,7 +15,7 @@ Spider Solitaire is a captivating single-player card game that requires both str
 
 1. Download the zip file, and unzip it.
 2. Navigate to the directory of the unzipped folder usind cd commands.
-3. Type `make` in the terminal, compiling the game into an executable.
+3. Type `make main` in the terminal, compiling the game into an executable.
 4. Type `./main` in the terminal to run the executable.
 5. Follow the instructions shown on screen, and enjoy the game.
 
